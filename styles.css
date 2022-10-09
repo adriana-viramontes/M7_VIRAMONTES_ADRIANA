@@ -1,0 +1,161 @@
+body {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        color: black;
+        margin: 0;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+header {
+        color: teal;
+        text-align: center;
+}
+
+header h1 {
+        font-size: 40px;
+        margin: 10px;
+}
+
+nav {
+        display: inline-block;
+        background-color: navy;
+        width: 100%;
+}
+
+nav ul {
+        padding: 0;
+}
+
+nav ul li {
+        list-style: none;
+        padding-right: 10px;
+        display: inline;
+        color: white;
+        font-size: 12px;
+        text-decoration: underline;
+}
+
+nav ul li a {
+        color: white;
+}
+
+section {
+        margin-top: 50px;
+        width: 600px;
+        float: left;
+        margin-left: 100px;
+        margin-bottom: 50px;
+}
+
+section h3 {
+        color: teal;
+        font-size: 24px;
+        text-align: center;
+        margin-top: 0;
+}
+
+section figure img {
+        max-width: 550px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+section figcaption {
+        text-align: center;
+        padding-top: 15px;
+}
+
+aside {
+        margin-top: 50px;
+        width: 200px;
+        float: right;
+        border: solid 3px black;
+        margin-right: 50px;
+}
+
+aside h4 {
+        color: teal;
+        font-size: 16px;
+        text-align: center;
+        margin-top: 5px;
+}
+
+aside figcaption {
+        font-weight: bold;
+        text-align: center;
+        font-size: 10px;
+        padding: 10px;
+}
+
+aside figure img {
+        max-width: 190px;
+}
+
+figure {
+        margin: 5px;
+}
+
+footer {
+        color: white;
+        font-size: 10px;
+        background-color: navy;
+        text-align: center;
+        padding: 25px;
+        clear: both;
+}
+
+form {
+        width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+form h2 {
+        text-align: center;
+        text-decoration: none;
+        color: teal;
+}
+
+input {
+        font-size: 14px;
+        width: 100%;
+        padding: 5px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+}
+
+textarea {
+        width: 100%;
+        height: 100px;
+        padding: 5px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+}
+
+input[type=date] {
+        width: 100px;
+}
+
+input[type=radio] {
+        width: auto;
+        padding-bottom: 5px;
+}
+
+input[type=reset],
+input[type=submit] {
+        width: 100px;
+        border: 2px solid black;
+        background-color: white;
+        border-radius: 10%;
+        font-weight: bold;
+}
+
+input[type=text]:focus,
+input[type=number]:focus,
+input[type=date]:focus,
+input[type=reset]:hover,
+input[type=submit]:hover {
+        border: 3px solid teal;
+}
